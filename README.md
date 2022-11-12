@@ -2,6 +2,8 @@
 
 ### Según la Marca de Auto que seleccionemos se hacen los respectivos descuentos:
 
+#### (Para este Ejercicio tenemos cómo base que el seguro sin ningún descyuento vale $2000 dólares)
+
 1. Americano = 1.15 (15%)
 2. Asiatico = 1.05 (5 %)
 3. Europeo = 1.35 (35%)
