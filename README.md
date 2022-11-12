@@ -5,7 +5,7 @@
 #### ( Para este Ejercicio tenemos cómo base que el seguro sin ningún descuento vale $2000 dólares )
 
 1. Americano = 1.15 (15%)
-2. Asiatico = 1.05 (5 %)
+2. Asiático = 1.05 (5 %)
 3. Europeo = 1.35 (35%)
 
 ### Entre más antiguo sea el año del auto, el costo va a reducirse un 3% en el valor del Seguro.
