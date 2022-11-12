@@ -12,3 +12,13 @@
 
 ### Si el seguro es básico se multiplica por un 30% más
 ### Si el seguro es completo se multiplica por un 50% más
+```javascript
+if (this.tipo === 'basico') {
+    cantidad *= 1.30;
+  } else {
+    cantidad *= 1.50;
+  }
+
+  return cantidad;
+```
+
