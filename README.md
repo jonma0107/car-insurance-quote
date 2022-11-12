@@ -12,8 +12,8 @@
 // Leer el año
   const diferencia = new Date().getFullYear() - this.year;
 
-  // Cada año que la diferencia es mayor, el costo va a reducirse un 3% en el valor del Seguro
-  cantidad -= ((diferencia * 3) * cantidad) / 100;
+// Cada año que la diferencia es mayor, el costo va a reducirse un 3% en el valor del Seguro
+cantidad -= ((diferencia * 3) * cantidad) / 100;
 ```
 
 * * *
