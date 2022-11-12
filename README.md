@@ -10,5 +10,5 @@
 
 * * *
 
-**Si el seguro es básico se multiplica por un 30% más**
-**Si el seguro es completo se multiplica por un 50% más**
+### Si el seguro es básico se multiplica por un 30% más
+### Si el seguro es completo se multiplica por un 50% más
