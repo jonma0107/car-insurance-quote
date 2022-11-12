@@ -2,7 +2,7 @@
 
 ### Según la Marca de Auto que seleccionemos se hacen los respectivos descuentos:
 
-#### (Para este Ejercicio tenemos cómo base que el seguro sin ningún descyuento vale $2000 dólares)
+#### ( Para este Ejercicio tenemos cómo base que el seguro sin ningún descuento vale $2000 dólares )
 
 1. Americano = 1.15 (15%)
 2. Asiatico = 1.05 (5 %)
@@ -20,8 +20,8 @@ cantidad -= ((diferencia * 3) * cantidad) / 100;
 
 * * *
 
-### Si el seguro es básico se multiplica por un 30% más
-### Si el seguro es completo se multiplica por un 50% más
+### Si el seguro es básico se multiplica por un 30% más.
+### Si el seguro es completo se multiplica por un 50% más.
 ```javascript
 if (this.tipo === 'basico') {
     cantidad *= 1.30;
