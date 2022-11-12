@@ -1,14 +1,14 @@
-## Algotitmo de la Cotización del Seguro de Automóviles
+## Algoritmo de la Cotización del Seguro de Automóviles
 
 ### Según la Marca de Auto que seleccionemos se hacen los respectivos descuentos:
 
 #### ( Para este Ejercicio tenemos cómo base que el seguro sin ningún descuento vale $2000 dólares )
 
-1. Americano = 1.15 (15%)
+1. Americano = 1.15 (15 %)
 2. Asiático = 1.05 (5 %)
-3. Europeo = 1.35 (35%)
+3. Europeo = 1.35 (35 %)
 
-### Entre más antiguo sea el año del auto, el costo va a reducirse un 3% en el valor del Seguro.
+### Entre más antiguo sea el año del auto, el costo del seguro va a reducirse en un 3%.
 
 ```javascript
 let cantidad;
@@ -37,8 +37,8 @@ cantidad -= ((diferencia * 3) * cantidad) / 100;
 
 * * *
 
-### Si el seguro es básico se multiplica por un 30% más.
-### Si el seguro es completo se multiplica por un 50% más.
+### Si el seguro es Básico se multiplica por un 30% más.
+### Si el seguro es Completo se multiplica por un 50% más.
 ```javascript
 if (this.tipo === 'basico') {
     cantidad *= 1.30;
