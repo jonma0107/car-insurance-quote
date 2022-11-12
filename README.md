@@ -2,7 +2,7 @@
 
 ### Según la Marca de Auto que seleccionemos se hacen las respectivas Cotizaciones, incrementándose el valor del seguro según la marca del auto, por ejemplo, si es un auto Americano el seguro tendrá un incremento del 15%, y así sucesivamente por cada marca que seleccionemos tendrá un porcentaje diferente:
 
-#### ( Para este Ejercicio tenemos cómo base que el seguro sin ningún descuento vale $2000 dólares )
+#### ( Para este Ejercicio tenemos cómo base que el seguro sin ningún incremento vale $2000 dólares )
 
 1. Americano = 1.15 (15%)
 2. Asiático = 1.05 (5%)
@@ -37,8 +37,8 @@ cantidad -= ((diferencia * 3) * cantidad) / 100;
 
 * * *
 
-### Si el tipo de seguro es Básico se multiplica por un 30% más. Porcentaje que se adiciona al total.
-### Si el tipo de seguro es Completo se multiplica por un 50% más. Porcentaje que se adiciona al total.
+### Si el tipo de seguro es Básico se multiplica por un 30%. Porcentaje que se adiciona al total.
+### Si el tipo de seguro es Completo se multiplica por un 50%. Porcentaje que se adiciona al total.
 ```javascript
 if (this.tipo === 'basico') {
     cantidad *= 1.30;
